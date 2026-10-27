@@ -1,16 +1,96 @@
-# React + Vite
+React Blog Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Blog Dashboard built with **React and Vite**. This project helps users explore blog posts, view blog listings, and add new blog posts through a clean and reusable user interface.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Home Page — Introduction to the blog dashboard.
+Blogs Page — View and explore blog posts.
+Add Blog Page — Add new blog posts.
+Navigation — Navigate between pages using React Router.
+Responsive UI — Clean interface with Tailwind CSS.
+Reusable Components — Organized and maintainable React components.
+Fast Development** — Powered by Vite.
 
-## React Compiler
+Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React.js
+Vite
+JavaScript
+HTML5
+CSS3 / Tailwind CSS
+React Router DOM
+Git and GitHub
 
-## Expanding the ESLint configuration
+Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+blog-dashboard/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Blogs.jsx
+│   │   └── AddBlog.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+└── vite.config.js
+
+
+Installation and Setup
+
+1. Clone the Repository
+
+bash
+git clone https://github.com/yasirkhan543232-AF/blog-dashboard.git
+
+
+2. Open the Project Folder
+
+bash
+cd blog-dashboard
+
+
+3. Install Dependencies
+
+bash
+npm install
+
+
+4. Start the Development Server
+
+bash
+npm run dev
+
+
+Open the local URL shown in your terminal, usually:
+
+http://localhost:5173
+
+
+Learning Objectives
+
+This project demonstrates practical experience with:
+
+- React components and JSX.
+- React Hooks, including `useState` and `useEffect`.
+- React Router for page navigation.
+- Reusable components and custom hooks.
+- State management and basic CRUD concepts.
+- Responsive frontend development.
+- Git and GitHub project management.
+
+Developer
+Yasir Akhtar
+
+
+- GitHub:(https://github.com/yasirkhan543232-AF)
+- Portfolio:(https://yasirkhan543232-af.github.io/yasir-portfolio/)
+
+License
+
+This project is intended for educational and personal learning purposes.
+
